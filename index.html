@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home |LKS Cloud Deploy ☁</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"></head>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 10px;">
+            <div class="theme-toggle-wrapper">
+                <button id="theme-toggle">🌙 Dark Mode</button>
+            </div>
+        </div>
+
+        <hr style="width: 100%; border: 0.5px solid rgba(255,255,255,0.1); margin: 5px 0;">
+
+        <div class="header-main">
+                <h1>LKS Cloud Deploy ☁</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="active"> 🏠 Home</a></li>
+                        <li><a href="about.html"> 👨‍🎓 About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Selamat Datang Diportal Deployment Cloud</h3>
+                    <p class="description">
+                        Aplikasi web sederhanan ini dikembangkan sebagai tugas Lomba Kompetensi Siswa (LKS) SMK bidang cloud Computing tahun 2026. Proyek ini mendemonstrasikan proses deploy otomatis dari GitHub ke paltform layanan cloud (Vercel/Netlify).
+                    </p>
+                    <a href="#fitur" class="button">Pelajari Lebih Lanjut</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <h3>Apa Itu Cloud Computing?</h3>
+
+                <div class="card-grid">
+                    <div class="card fade-in">
+                        <h4>Iaas (Infrastruktur)</h4>
+                        <p>Menyediakan sumber daya komputasi dasar seperti Virutal Machine (VM), Jaringan, dan Penyimpanan</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h4>Paas (Platform)</h4>
+                        <p>Menyedikan lingkungan yang siap digunakan untuk mengembangkan, dan mengelola aplikasi tanpa mengurus Infrastruktur</p>
+                    </div>
+
+                    <div class="card fade-in">
+                        <h4>Saas (Software)</h4>
+                        <p>Perangkat lunak yang siap diakses melalui internet, dikelola sepenuhnya oleh penyedia layanan (Contoh: Google Worspace, Office 365)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="api-section">
+            <div class="container">
+                <h3>Fitur Dinamis (LKS Requirenment)</h3>
+                <p>Mengambil data dari API publik sebagai demonstrasi fungsional JavScript</p>
+
+                <div id="data-api" class="api-result">Loading data dari API</div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>&copy; LKS Cloud Computing 2026. Deploy By Walidi Danang</p>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
